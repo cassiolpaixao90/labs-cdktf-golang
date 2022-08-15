@@ -8,7 +8,10 @@
   "scripts": {
     "get": "cdktf get",
     "build": "tsc",
+    "build-go": "GOOS=linux GOARCH=amd64 go build -ldflags='-s -w' -o='dist/lambdaHandler' apps/main.go",
     "synth": "cdktf synth",
+    "deploy": "cdktf deploy",
+    "destroy": "cdktf destroy",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
     "test": "jest",
