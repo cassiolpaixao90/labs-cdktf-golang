@@ -10,7 +10,7 @@ It's sample cdktf terraform to deploy lambda with provider aws.
 - NodeJs
 - Jest
 
-## Dependêncies to install
+## Dependencies to install
 
 - Golang
 - NodeJS
